@@ -88,7 +88,7 @@ NodeParam: &NodeParam {type: http, interval: 86400, health-check: {enable: true,
 # 锚点 - 节点订阅
 proxy-providers: 
   我的节点:
-    url: '机场的订阅地址'
+    url: 'https://api.kkhhyytt.cn/api/v1/client/subscribe?token=3fb190402296b7e21a6213a5b2ce0081'
     <<: *NodeParam
     path: './proxy_provider/Providers.yaml'
 
